@@ -15,8 +15,10 @@ const makeGrid = (gridWidth,gridHeight) =>{
         divArray[i].className = "gridDiv";
         divArray[i].style.width = "20px";
         divArray[i].style.height = "20px";
+        divArray[i].style.float = "left"; //prevents lines betwen blocks
+        divArray[i].style.backgroundColor = "white";
+        
         container.appendChild(divArray[i]); //add the div to the container
-    
     }
     
 }

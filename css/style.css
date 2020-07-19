@@ -1,8 +1,9 @@
 
+body{
+    background-color: beige;
+}
 
 .gridDiv{
-    background-color:black;
-    display: inline-block;
 }
 
 
