@@ -23,4 +23,17 @@ const makeGrid = (gridWidth,gridHeight) =>{
     
 }
 
-makeGrid(20,20);
+makeGrid(20,20); //need to make the grid before we can modify it.
+
+const gridClass = document.querySelectorAll(".gridDiv");
+
+
+//iterate through the class list
+gridClass.forEach((gridItem) => {
+
+    gridItem.addEventListener('mouseover', () =>{
+
+        gridItem.style.backgroundColor = "black";
+    });
+
+});
